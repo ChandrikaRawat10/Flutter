@@ -1,0 +1,29 @@
+1. download flutter sdk
+https://docs.flutter.dev/get-started/install/windows
+2. extract it
+3. set loaction of bin file in enviornment variable ant then open cmd run command flutter
+4 download android sdk
+https://developer.android.com/studio?gclid=Cj0KCQjwoeemBhCfARIsADR2QCsSrpI9a-ZQM8YSOU-IBLwCDAv05e3rdvbJrjwE1bQzGhumBTq9dKEaAnrgEALw_wcB&gclsrc=aw.ds
+from command line tools only - windows
+5 download vscode
+6. download java jdk
+6. set java_HOME in enviornment variable
+go to c drive->program files->java->jdk->bin
+copy this in system variable 
+in path - C:\Program Files\Java\jdk-20\bin
+add JAVA_HOME in system variable C:\Program Files\Java\jdk-20
+7. open cmd in comandline tools bin and run these commands
+sdkmanager.bat "build-tools;30.0.0" --sdk_root=../
+sdkmanager.bat "platforms;android-30" --sdk_root=../
+sdkmanager.bat "cmdline-tools;latest" --sdk_root=../
+8. set path for platform and platform tools which is in cmdline folder in envoirnment variable
+9. download androind lincense by running the command
+flutter doctor --android-licences
+10. Visual Studio - develop for Windows
+    X Visual Studio not installed; this is necessary for Windows development.
+      Download at https://visualstudio.microsoft.com/downloads/.
+      Please install the "Desktop development with C++" workload, including all of its default components
+For this error follow this video - https://www.youtube.com/watch?v=HaLSHYQF4N8&ab_channel=master_error%21
+
+
+Rfer this youtube video - https://www.youtube.com/watch?t=156&v=Sp__3Df22s8&feature=youtu.be&ab_channel=FlutterTeacher
